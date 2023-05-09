@@ -17,14 +17,14 @@ main {
         url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
     background-repeat: no-repeat, no-repeat;
     /* background-size: cover; */
-    background-position-x: -300px, 675px;
-    background-position-y: -600px, 275px;
+    background-position-x: -275px, 675px;
+    background-position-y: -525px, 400px;
     width: 1440px;
     height: 720px;
 }
 
 .card {
-    border-radius: 10px;
+    border-radius: 12px;
     width: 350px;
     background-color: white;
 }
@@ -32,8 +32,8 @@ main {
 .card-header {
     background-image: url(/images/bg-pattern-card.svg);
     height: 120px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
 }
 
 .avatar {
