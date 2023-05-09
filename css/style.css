@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 16px;
+    letter-spacing: .05rem;
+    color: hsl(229, 23%, 23%); /* Very dark desaturated blue*/
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(185, 75%, 39%);
+    background-image:
+        url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    /* background-size: cover; */
+    background-position-x: -300px, 675px;
+    background-position-y: -600px, 275px;
+    width: 1440px;
+    height: 720px;
+}
+
+.card {
+    border-radius: 10px;
+    width: 350px;
+    background-color: white;
+}
+
+.card-header {
+    background-image: url(/images/bg-pattern-card.svg);
+    height: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.avatar {
+    border-radius: 50%;
+    border: 5px solid white;
+    width: 100px;
+    margin-top: -50px;
+}
+
+.user-name {
+    margin-top: 1em;
+    margin-bottom: .5em;
+    font-size: 18px;
+    font-weight: 700;
+    color:hsl(229, 23%, 23%) /* Very dark desaturated blue*/
+}
+.user-age {
+    margin-left: 0.5em;
+    color:  hsl(227, 10%, 46%);
+    font-weight: 400;
+    /* font-size: initial; */
+}
+.user-location {
+    margin-bottom: 2em;
+    color:  hsl(227, 10%, 46%);
+    font-size: .85rem;
+}
+
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.stat-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+.stat-number {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: .25em;
+}
+.stat-title {
+    font-weight: 400;
+    font-size: .6rem;
+    color:  hsl(227, 10%, 46%);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
