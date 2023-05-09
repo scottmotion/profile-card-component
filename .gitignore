@@ -17,5 +17,4 @@
 .prettierignore
 
 design
-readme.md
-/index.html
+*.md
