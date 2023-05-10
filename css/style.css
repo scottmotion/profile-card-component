@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 
 body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 16px;
     letter-spacing: .05rem;
@@ -17,7 +20,6 @@ main {
     background-image:
         url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
     background-repeat: no-repeat, no-repeat;
-    /* background-size: cover; */
     background-position-x: -275px, 675px;
     background-position-y: -525px, 400px;
     width: 1440px;
@@ -32,33 +34,37 @@ main {
 
 .card-header {
     background-image: url(/images/bg-pattern-card.svg);
-    height: 120px;
+    height: 140px;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
 }
 
+.avatar-wrapper {
+    border-radius: 50%;
+    background-color: white;
+    margin-top: -50px;
+}
 .avatar {
     border-radius: 50%;
     border: 5px solid white;
     width: 100px;
-    margin-top: -50px;
 }
 
 .user-name {
-    margin-top: 1em;
-    margin-bottom: .5em;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
     font-size: 18px;
     font-weight: 700;
     color:hsl(229, 23%, 23%) /* Very dark desaturated blue*/
 }
 .user-age {
-    margin-left: 0.5em;
+    margin-left: 0.5rem;
     color:  hsl(227, 10%, 46%);
     font-weight: 400;
     /* font-size: initial; */
 }
 .user-location {
-    margin-bottom: 2em;
+    margin-bottom: 1.25rem;
     color:  hsl(227, 10%, 46%);
     font-size: .85rem;
 }
