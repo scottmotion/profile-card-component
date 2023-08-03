@@ -18,7 +18,7 @@ main {
     align-items: center;
     background-color: hsl(185, 75%, 39%);
     background-image:
-        url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+        url(https://scottmotion.github.io/profile-card-component/images/bg-pattern-top.svg), url(https://scottmotion.github.io/profile-card-component/images/bg-pattern-bottom.svg);
     background-repeat: no-repeat, no-repeat;
     background-position-x: -275px, 675px;
     background-position-y: -525px, 400px;
@@ -35,7 +35,7 @@ main {
 }
 
 .card-header {
-    background-image: url(/images/bg-pattern-card.svg);
+    background-image: url(https://scottmotion.github.io/profile-card-component/images/bg-pattern-card.svg);
     height: 140px;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
